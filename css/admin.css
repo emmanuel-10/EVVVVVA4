@@ -1,0 +1,109 @@
+body{
+    background: #212121;
+    margin: 0px 40px;
+}
+
+.barra{
+    background: darkgray;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid rgb(59, 59, 59);
+    background: #f5f5f5;
+    
+}
+
+.caja1{
+    
+    text-align: center;
+    background: #eeeeee;
+    padding: 20px;
+   
+}
+
+
+img{
+    border-radius: 50px;
+    margin-top: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+li:hover{
+    transform: scale(0.9);
+    transition: all 0.5s ease; 
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+   
+  
+    .caja{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+        background: #f5f5f5;
+        
+        
+    }
+    .caja2{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        background: #f5f5f5;
+        padding: 5px;
+        
+    }
+
+    .caja3{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+       
+        background: #f5f5f5;
+        
+        
+    }
+    
+
+    
+
+    .barra{
+        background: darkgray;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .caja1{
+    
+        text-align: center;
+        background: #eeeeee;
+        padding: 20px;
+       
+    }
+    
+    
+
+}
+
+ 
+ /* label focus color */
+ .input-field input:focus + label {
+    color: rgb(0, 0, 0) !important;
+}
+/* label underline focus color */
+  .input-field input:focus {
+    border-bottom: 1px solid rgb(37, 38, 54) !important;
+    box-shadow: 0 1px 0 0 rgb(86, 87, 86) !important;
+  }
+
+  
