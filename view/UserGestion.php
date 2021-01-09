@@ -37,7 +37,7 @@ require_once("../modelo/ClienteModel.php");
                     <a href="UserGestion.php" class="brand-logo">Gestion de Clientes</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="active"><a href="UserGestion.php"><i class="material-icons left">account_box</i>Crear Cliente</a></li>
-                    <li><a href="BuscarReceta.php"><i class="material-icons left">find_in_page</i>Buscar Receta</a></li>
+                    <li><a href="BuscarReceta.php"><i class="material-icons left">find_in_page</i>Buscar Recetas</a></li>
                     <li><a href="IngresarReceta.php"><i class="material-icons left">note_add</i>Receta</a></li>
                     <li><a href="SalirUser.php"><i class="material-icons right">exit_to_app</i>Cerrar Sesion</a></li>
                     </ul>

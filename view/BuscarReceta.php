@@ -97,7 +97,7 @@
                         </td>
                         <td>
                             <button class="center">
-                                <img height="40"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
+                                <img @click="generarPDF(r.id)" height="30"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
                             </button>
                         </td>
                     </tr>
